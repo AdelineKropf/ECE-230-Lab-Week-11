@@ -32,3 +32,10 @@ In this lab, you’ve learned about edge sensitive circuits and explored some of
 
 ### What do edge sensitive circuits let us build?
 
+    Edge sensitive circuits let us build reliable synchronous counters. A counter requires the 
+    use of toggles and adders and toggles are edge sensitive circuits. If you don't use a flip
+    flop (edge sensitive) and instead use a latch (level sensitive) you can get run away adding
+    where instead of adding one per clock cycle while the clock is high it just keeps adding
+    making it unpredictable, while it using an edge sensitive flip flop means it can only add
+    one per clock cycle making the adding predictable.
+
