@@ -26,5 +26,9 @@ In this lab, you’ve learned about edge sensitive circuits and explored some of
 
 ### Why is it important to declare initial state?
 
+    It is important to declare an initial state because the FPGA (Field Programmable Gate 
+    Array) doesn't know the initial state so not explicitly declaring it can lead to 
+    unpredictable behavior.
+
 ### What do edge sensitive circuits let us build?
 
