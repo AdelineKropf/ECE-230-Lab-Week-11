@@ -4,10 +4,10 @@ module t_flip_flop(
     output Q,
     output NotQ
     );
-    
-    wire jk_flip_flop_Q;
-    wire jk_flip_flop_NotQ;
-    
+       
+    wire jk_flip_flop_Q;    
+    wire jk_flip_flop_NotQ;    
+        
     jk_flip_flop Use(
         .J(T),
         .K(T),

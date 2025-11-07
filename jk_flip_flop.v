@@ -14,7 +14,7 @@ module jk_flip_flop(
     d_flip_flop Use(
         .Data(data_input),
         .Clock(Clock),
-        .Q(d_flip_flopQ),
+        .Q(d_flip_flop_Q),
         .NotQ(d_flip_flop_NotQ)
     );    
     
